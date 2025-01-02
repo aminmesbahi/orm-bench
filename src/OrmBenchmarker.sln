@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrmBenchmarker", "OrmBenchmarker\OrmBenchmarker.csproj", "{ED840255-EDC4-43F3-B3E4-22589314693B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrmBenchmarker.Data", "OrmBenchmarker.Data\OrmBenchmarker.Data.csproj", "{8811AC5F-C422-47DB-BD12-8FC00AAD317C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED840255-EDC4-43F3-B3E4-22589314693B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED840255-EDC4-43F3-B3E4-22589314693B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED840255-EDC4-43F3-B3E4-22589314693B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED840255-EDC4-43F3-B3E4-22589314693B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8811AC5F-C422-47DB-BD12-8FC00AAD317C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8811AC5F-C422-47DB-BD12-8FC00AAD317C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8811AC5F-C422-47DB-BD12-8FC00AAD317C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8811AC5F-C422-47DB-BD12-8FC00AAD317C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "OrmBenchmarker": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
