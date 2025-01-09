@@ -8,12 +8,12 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
-public class Repository<T, TKey> : IRepository<T, TKey> where T : class
+public class EFCoreRepository<T, TKey> : IRepository<T, TKey> where T : class
 {
     private readonly ApplicationDbContext _context;
     private readonly DbSet<T> _dbSet;
 
-    public Repository(ApplicationDbContext context)
+    public EFCoreRepository(ApplicationDbContext context)
     {
         _context = context;
         _dbSet = context.Set<T>();
