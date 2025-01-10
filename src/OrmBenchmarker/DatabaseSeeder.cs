@@ -28,16 +28,20 @@ public class DatabaseSeeder
         await CreateTablesAsync();
 
         var customers = DataGenerator.GenerateCustomers(_customerRecords);
+        await _context.Customers.AddRangeAsync(customers);
+        await _context.SaveChangesAsync();
+        var customerIds = customers.Select(c => c.Id).ToList();
         var orders = new List<Order>();
 
-        foreach (var customer in customers)
+        foreach (var customerId in customerIds)
         {
-            orders.AddRange(DataGenerator.GenerateOrders(_orderPerCustomer, customer.Id));
+            orders.AddRange(DataGenerator.GenerateOrders(_orderPerCustomer, customerId));
         }
 
-        await _context.Customers.AddRangeAsync(customers);
+
         await _context.Orders.AddRangeAsync(orders);
         await _context.SaveChangesAsync();
+
     }
 
     private async Task DropTablesAsync()

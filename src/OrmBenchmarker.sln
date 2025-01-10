@@ -7,13 +7,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrmBenchmarker", "OrmBenchm
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrmBenchmarker.Data", "OrmBenchmarker.Data\OrmBenchmarker.Data.csproj", "{8811AC5F-C422-47DB-BD12-8FC00AAD317C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrmBenchmarker.Test", "OrmBenchmarker.Test\OrmBenchmarker.Test.csproj", "{7FDDD989-C484-40F3-B1BB-A0201FFB3046}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{ED840255-EDC4-43F3-B3E4-22589314693B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -24,5 +23,15 @@ Global
 		{8811AC5F-C422-47DB-BD12-8FC00AAD317C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8811AC5F-C422-47DB-BD12-8FC00AAD317C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8811AC5F-C422-47DB-BD12-8FC00AAD317C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FDDD989-C484-40F3-B1BB-A0201FFB3046}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FDDD989-C484-40F3-B1BB-A0201FFB3046}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FDDD989-C484-40F3-B1BB-A0201FFB3046}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FDDD989-C484-40F3-B1BB-A0201FFB3046}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {32D9E8E4-56CC-441B-8E6A-A0F5B3ADAA41}
 	EndGlobalSection
 EndGlobal

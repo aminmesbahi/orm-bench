@@ -25,10 +25,11 @@ public class Benchmarks
     {
         await _efRepository.GetByIdAsync(1);
     }
-
+    /*
     [Benchmark]
     public async Task Dapper_GetByIdAsync()
     {
         await _dapperRepository.GetByIdAsync(1);
     }
+    */
 }
